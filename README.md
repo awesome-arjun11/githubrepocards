@@ -3,14 +3,17 @@ JS library for github repository cards integration for websites (portfolio, proj
 
 
 ## Usage
-Include the JS.
+#### Include the JS.
 ```html
 <script src="https://raw.githubusercontent.com/awesome-arjun11/githubrepocards/master/githubrepocards.js"></script>
 ```
-### .github-repo-card
+#### .github-repo-card
 
 Use `.github-repo-card` on element with *repo* and *user* `data-` attrubutes.
 
 ```html
 <div class="github-repo-card" data-repo="githubrepocards" data-user="awesome-arjun11"></div>
 ```
+## TODO
+- Add customisation options
+- Add User Cards
