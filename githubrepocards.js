@@ -14,7 +14,7 @@
 
     // handle response json
     const responseHandler = (element, response) => {
-        element.innerHTML = getcardhtml(response);
+        element.innerHTML = getCardHTML(response);
     };
 
     // Loads the required css    
@@ -27,7 +27,7 @@
 
     
 
-    $(window).on('load', function () {
+    window.onload = function () {
         loadCSS();
 
         document.querySelectorAll(".github-repo-card").forEach(elem=>{
@@ -38,6 +38,6 @@
             .catch(err=>console.log(err));
     
         });
-    });
+    };
 
 })(window, document, undefined);
