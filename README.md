@@ -5,7 +5,7 @@ JS library for github repository cards integration for websites (portfolio, proj
 ## Usage
 #### Include the JS.
 ```html
-<script src="https://raw.githubusercontent.com/awesome-arjun11/githubrepocards/master/githubrepocards.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/awesome-arjun11/githubrepocards/githubrepocards.js"></script>
 ```
 #### .github-repo-card
 
